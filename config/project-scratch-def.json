@@ -1,0 +1,31 @@
+{
+    "orgName": "sathishv sf-code-examples",
+    "edition": "Developer",
+    "features": ["EnableSetPasswordInApi", "EinsteinGPTForDevelopers"],
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true,
+            "enableLightningPreviewPref": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        },
+        "enhancedNotesSettings": {
+            "enableEnhancedNotes": true
+        },
+        "territory2Settings": {
+            "enableTerritoryManagement2": true,
+            "tm2EnableUserAssignmentLog": true,
+            "showTM2EnabledBanner": true
+        },
+        "securitySettings": {
+            "enableAdminLoginAsAnyUser": true,
+            "sessionSettings": {
+                "sessionTimeout": "TwentyFourHours"
+            }
+        },
+        "emailTemplateSettings": {
+            "enableTemplateEnhancedFolderPref": true
+        }
+    }
+}

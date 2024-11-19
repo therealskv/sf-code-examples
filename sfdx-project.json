@@ -1,0 +1,27 @@
+{
+    "packageDirectories": [
+        {
+            "path": "base-app",
+            "default": true,
+            "package": "SFExamplesApp",
+            "versionName": "Version 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "lwc-examples-app",
+            "package": "LWCExamplesApp",
+            "versionName": "Version 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "SFExamplesApp",
+                    "versionNumber": "0.1.0.NEXT"
+                }
+            ]
+        }
+    ],
+    "name": "sf-code-examples",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "62.0"
+}
